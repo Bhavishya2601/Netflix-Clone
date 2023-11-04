@@ -1,0 +1,149 @@
+*{
+    font-family: system-ui;
+}
+body{
+    background-color:black;
+    color:white;
+}
+hr{
+    height: 5px;
+    background-color: rgb(94, 94, 94);
+    border: none;
+}
+header{
+    background-image: url("img3.png");
+    height: 700px;
+}
+
+.nav{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 150px;
+}
+.nav1{
+    padding-top: 15px;
+}
+.butt{
+    background-color: red;
+    color:white;
+    height: 30px;
+    width: 70px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.hed{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+}
+#di{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.but{
+    background-color: red;
+    color:white;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/* code for main */
+.sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 80px 0;
+    height: 500px;
+}
+.sec1{
+    flex-direction: column;
+    font-size: 30px;
+    padding: 60px 70px 0 50px;
+    width:50%;
+}
+
+/* code for frequently asked questions */
+
+#txt{
+    text-align: center;
+    font-size: 50px;
+
+}
+.ques{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 200px;
+    width: 70%;
+}
+.subques{
+    margin-top: 10px;
+    border: 50px;
+    height: 50px;
+    background-color: rgb(73, 73, 73);
+    font-size: x-large;
+    padding: 20px 0 5px 30px;
+}
+.subques:hover{
+    background-color: rgb(101, 100, 100);
+}
+#blw{
+    text-align: center;
+    font-size: 20px;
+}
+#form{
+    margin-bottom:50px;
+}
+#email{
+    background-color: black;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid rgb(69, 69, 69);
+    border-radius: 5px;
+    color: white;
+}
+#submit{
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* code for footer */
+
+footer{
+    color:rgb(197, 196, 196);
+}
+#foot2{
+    margin-left: 150px;
+}
+a{
+    color:rgb(197, 196, 196);
+}
+
+.foot{
+    display: inline-grid;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.foot1{
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.drop{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
